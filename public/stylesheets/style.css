@@ -1,0 +1,253 @@
+body{
+  background: rgb(125, 122, 124);
+  background: linear-gradient(90deg, rgb(159, 156, 158) 0%, rgba(222,219,220,1) 38%, rgba(240,238,239,1) 55%);
+    }
+    .center{ 
+             display:block;
+             width: 40%;
+             margin: 10px auto;
+             padding: 2px 2px;
+             margin-left: 750px;
+            
+    }
+   
+             .real{
+                 display: flex;
+                 height: 800px;
+                 width: 850px;
+                 background-color: aliceblue;
+                 margin-left: 350px;
+                 border-radius: 20px;
+                 border-color: aliceblue;
+                 box-shadow: 2px 1px 21px 8px rgba(3, 3, 3, 0.75);
+                 margin-top: 50px;
+                flex-direction: column;
+                 
+             }
+             .flexitem1{
+                 height: 200px;
+                 width:100%;
+                 background: rgb(36,0,0);
+  background: radial-gradient(circle, rgba(36,0,0,0.9917717086834734) 0%, rgba(199,150,24,1) 0%);
+  
+                 border-radius: 20px;
+                 
+                 
+  
+             }
+             .flexitem2{
+                 
+                 height: 1000px;
+                 width: 100%;
+                 align-items: center;
+             }
+             /* .picture{
+                 position: absolute;
+                 background-image: url(dp.jpg);
+                 height:200px;
+                 width:200px;
+                 margin-left: 8%;
+              display: inline-block;
+              margin-top: 60px;
+              border: 7px solid white;
+              border-radius: 100%;
+              
+             } */
+             .boxinsecond
+             {
+                
+                 height:500px;
+                 width: 100%;
+                 margin-top: 0px;
+                 color: black;
+                 display: flex;
+             }
+             .name{
+                margin-top: 70px;
+                 height: 70px;
+                 width: 40%;
+                font-size: 25px;
+                 
+                 margin-left: 100px;
+                 color: black;
+               
+                 padding-top: 10px;
+                 border-radius: 20px;
+                 margin-bottom: 10px;
+             }
+             .imperial{
+              color: rgb(88, 35, 35);
+                 font-style: italic;
+                 font-size: xx-large;
+                 
+             }
+             .info{
+                 height:400px;
+                 width:50%;
+                 
+                 padding-left: 20px;
+                 padding-top: 20px;
+                 
+               
+             }
+             .boxinone{
+                 width: 100%;
+                 height:50px;
+                 background-color: rgb(49, 9, 9);
+                margin-top: 20px;
+               display: flex;
+               flex-direction: row;
+             padding-top: 20px;
+             color: aliceblue;
+             font-size:20px;
+             border-radius: 20px;
+            
+               
+             }
+             .first{
+                 margin-left: 30%;
+                
+             }
+             .second{
+                 margin-left: 5%;
+             }
+             .third{
+                 margin-left: 5%;
+             }
+             .state{
+                 margin-left: 50px;
+                 font-size: 20px;
+                 color: rgb(149, 141, 141);
+             }
+             .info2{
+                 height:400px;
+                 width:50%;
+                 margin-right: 4px;
+                 display: flex;
+                 flex-direction: column;
+             
+  
+             }
+             .about{
+                 font-size: 25px;
+           font-weight: bolder;
+           
+             }
+             .boxinone1{
+                 width: 70%;
+                 height:100px;
+                margin-left: 150px;
+               
+              
+             padding-top: 20px;
+             color: aliceblue;
+             font-size:25px;
+           
+            
+             }
+             .estate{
+                 font-style: italic;
+                 color:  rgb(36,0,0);
+             }
+             .hello{
+                 font-size: larger;
+                
+                 color: rgb(164, 120, 7);
+             }
+            .main{
+             color: rgb(95, 93, 93);
+            }
+            .keys{
+             color:rgb(52, 5, 5) ;
+            
+             font-size: larger;
+             
+  
+            }
+            .touch{
+              font-size: 30px;
+              color: rgb(46, 44, 44);
+            }
+            .email{
+             font-size: large;
+             font-style: italic;
+             color: rgb(88, 35, 35);
+            }
+            .imperials{
+              color: rgb(88, 35, 35);
+            }
+            .box1{
+             width: 100%;
+             height: 100px;
+             background-color:rgb(214, 171, 62);
+             margin-bottom: 30px;
+             border-radius: 20px;
+             display: flex;
+             flex-direction: row;
+             margin-right: 4px;
+             box-shadow: 2px 1px 21px 8px rgba(3, 3, 3, 0.75);
+             
+            }
+            .box2{
+             width: 100%;
+             height: 100px;
+             background-color:rgba(199,150,24,1);
+             margin-bottom:30px ;
+             border-radius: 20px;
+             display: flex;
+             flex-direction: row;
+             margin-right: 4px;
+             box-shadow: 2px 1px 21px 8px rgba(3, 3, 3, 0.75);
+            }
+            .box3{
+             width: 100%;
+             height: 100px;
+             background-color: rgba(199,150,24,1);
+             border-radius: 20px;
+             display: flex;
+             flex-direction: row;
+             margin-right: 4px;
+             box-shadow: 2px 1px 21px 8px rgba(3, 3, 3, 0.5);
+         }
+         .boxinbox{
+             width: 30%;
+             height: 80px;
+            color:rgba(199,150,24,1) ;
+             background-color:  rgb(36,0,0);
+             margin-left: 5px;
+             margin-top: 8px;
+             border-radius: 20px;
+             padding-top: 20px;
+             padding-left: 5px;
+             font-size: larger;
+             font-style: italic;
+         }
+         .boxinbox1{
+             width: 65%;
+            color: aliceblue;
+             height: 80px;
+             margin-left: 5px;
+             margin-top: 8px;
+             border-radius: 20px;
+         }
+         .harman{
+            margin-top: 60px;
+             height:50px;
+             width:400px;
+             background-color: rgb(157, 154, 154);
+             border-radius: 10px;
+             color: aliceblue;
+             padding-top: 20px;
+             padding-left: 20px;
+             font-size: 20px;
+             font-style: italic;
+             margin-right: 4px;
+  
+            
+         }
+         .boxjas{
+             display:flex;
+             flex-direction: row;
+         }
+        
+         

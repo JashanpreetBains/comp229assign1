@@ -1,0 +1,82 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="/stylesheets/style2.css">
+<body>
+    <style>
+    </style>
+   <%- include('header.ejs') %>
+ <div class="imagenew">
+    <img src="https://solmetex.com/wp-content/uploads/2021/06/Contact-Us-Icons.png" alt="Girl in a jacket" width="300" height="100">
+    </div>
+    <div class="form">
+     <div class="div1"> <span class="contact">CONTACT FORM</span></div>
+     <div class="div2">
+        <form class="forma" action="">
+            <p>
+                <label for="txtFName">Name : </label>
+                <input id="txtFName" name="txtFName" size="90"  type="text" required="required">
+              </p>
+              <p><label for="opted">Type Of website :</label>
+                <input id="optEdSec" name="optEd"  type="radio" value="Sec">For children
+                <input id="optEdCol" name="optEd" tabindex="17" type="radio" value="Col">adults
+                <input name="optEd" tabindex="19" type="radio" value="Ugrad">all category
+                 &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                <label for="year" class="years">Year:</label> 
+                <input id="txtFName" name="txtFName" size="20" tabindex="1" type="text" required="required">
+              </p>
+              <p>
+                <label for="txtFName">Current Address :</label>
+                <input id="txtFName" name="txtFName" size="80"  type="text" required="required">
+              </p>
+              <p>
+                <label for="txtFName">Phone Number :</label>
+                <input id="txtFName" name="txtFName" size="75"  type="number" required="required">
+              </p>
+              <p>
+                <label for="txtFName"> E-mail Adress:</label>
+                <input id="txtFName" name="txtFName" size="75"  type="text" required="required">
+              </p>
+              <p>
+                <label for="txtFName"> Confirm E-mail:</label>
+                <input id="txtFName" name="txtFName" size="72"  type="text" required="required">
+              </p>
+              
+        </form>
+     </div>
+     <hr>
+     <div class="div3">
+        <p>
+            <div class="boxers">
+                <div class="box1">
+                   
+                  11) What other <span class="bold">projects</span> you want me to work on?<br><br>
+              <textarea id="txtSpecialReq" cols="40" name="txtSpecialReq" rows="6"
+                tabindex="37"></textarea>
+                </div>
+                
+                <div class="box2">
+                  <label for="txtSpecialReq">12) What feedback you want to <span class="bold">give</span> to my projects ?</label>
+                <br> <br>
+              <textarea id="txtSpecialReq" cols="40" name="txtSpecialReq" rows="6"
+                tabindex="37"></textarea>
+                </div>
+              </div>
+          </p>
+          
+     </div>
+    <form action="
+    "> <div><div class="button">
+        <button class="buttonnew">Submit</button> &nbsp;&nbsp;
+        <button class="buttonnew">Reset</button>
+       </div></div></form>
+    </div>
+  <br>
+</body>
+<%- include('footer.ejs') %>
+</html>
